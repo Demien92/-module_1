@@ -1,0 +1,82 @@
+.section_2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1024px;
+  margin-bottom: 20px;
+  .block_left{
+    display: flex;
+    background: #78bcc9;
+    margin-right: 20px;
+  }
+  .block_left_img{
+    background: url("../../assets/image/square2-bg.png") no-repeat;
+    width: 371px;
+    height: 442px;
+  }
+  .block_left_content{
+    padding: 40px;
+    h1{
+      padding: 20px 0;
+    }
+    span{
+      display: flex;
+      font-size: 24px;
+      padding-bottom: 135px;
+    }
+  }
+  .block_right{
+    text-align: center;
+    background: #eb7b61;
+    width: 100%;
+    padding: 75px 45px 0 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    .title{
+      font-size: 48px;
+      padding-bottom: 10px;
+    }
+    .descriptions{
+      font-size: 24px;
+      padding-bottom: 40px;
+    }
+    button{
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      cursor: pointer;
+      -webkit-transition: all .3s ease;
+      -moz-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      color: #fff;
+    }
+    .btn_w{
+      background: transparent;
+      margin-bottom: 16px;
+      height: 38px;
+      border: 2px solid #fff;
+      &:hover{
+        background: #66689c;
+        border: 2px solid #66689c;
+
+      }
+    }
+    .btn_blue{
+      border: 2px solid transparent;
+      height: 38px;
+      background: #66689c;
+      &:hover{
+        background: transparent;
+        border: 2px solid #fff;
+      }
+    }
+    span{
+      font-size: 14px;
+      padding-top: 30px;
+    }
+  }
+}
