@@ -1,5 +1,5 @@
 .footer{
-  width: 1024px;
+  max-width: 1024px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -9,14 +9,20 @@
     font-size: 14px;
     color: #716e7b;
   }
-  a{
-    margin-left: 20px;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    &:hover{
-      opacity: 0.5;
+  .social{
+    display: flex;
+    align-items: center;
+    a{
+      display: inline-block;
+      margin-left: 20px;
+      -webkit-transition: all .3s ease;
+      -moz-transition: all .3s ease;
+      -ms-transition: all .3s ease;
+      -o-transition: all .3s ease;
+      &:hover{
+        opacity: 0.5;
+      }
     }
   }
+
 }

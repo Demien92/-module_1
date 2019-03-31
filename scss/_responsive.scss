@@ -1,0 +1,489 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1023px) {
+  .content{
+    padding: 20px;
+  }
+  h2{
+    font-size: 11px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 14px;
+  }
+  a{
+    font-size: 15px;
+  }
+  .btn_border_y{
+    width: 100px;
+    height: 30px;
+  }
+  .header{
+    max-width: 728px;
+    padding: 20px 0;
+    .header_logo{
+      .title{
+        font-size: 30px;
+      }
+      span{
+        font-size: 11px;
+      }
+    }
+    .search{
+      &:before{
+        top: 0px;
+      }
+      input{
+        font-size: 15px;
+        padding-right: 25px;
+        width: 70px;
+      }
+    }
+  }
+  .section_1{
+    max-width: 728px;
+    h2{
+      padding-bottom: 10px;
+    }
+    h3{
+      padding: 10px 0 50px;
+      line-height: normal;
+    }
+  }
+  .section_2{
+    max-width: 728px;
+    .block_left{
+      .block_left_content{
+        padding: 20px;
+        h1{
+          padding: 10px 0;
+        }
+        span{
+          font-size: 15px;
+          padding-bottom: 90px;
+        }
+      }
+      .block_left_img{
+        background-size: 100% 100% ;
+        height: 300px;
+        width: 252px;
+      }
+    }
+    .block_right{
+      padding: 20px;
+      .title {
+        font-size: 27px;
+      }
+      .descriptions {
+        font-size: 15px;
+        padding-bottom: 20px;
+      }
+      .btn_w{
+        margin-bottom: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 15px;
+      }
+      .btn_blue{
+        margin-bottom: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 15px;
+      }
+      span{
+        padding: 0;
+        font-size: 11px;
+      }
+    }
+  }
+  .section_3{
+    max-width: 728px;
+    .block_mob{
+      width: 45%;
+    }
+    .block_one{
+      width: 185px;
+      height: 300px;
+      background-size: 100% 100%;
+      padding: 20px 0;
+      .title{
+        font-size: 24px;
+      }
+      a{
+        width: 75px;
+        height: 30px;
+      }
+    }
+    .block_two{
+      padding: 20px 0;
+      width: 185px;
+      height: 300px;
+      background-size: 100% 100%;
+      .title{
+        font-size: 24px;
+      }
+      a{
+        width: 75px;
+        height: 30px;
+      }
+    }
+    .block_three{
+      padding: 20px;
+      width: 55%;
+      &:before{
+        background-size: 100% 100%;
+        height: 200px;
+        width: 276px;
+      }
+      h2{
+        padding-bottom: 10px;
+      }
+      h1{
+        font-size: 24px;
+        padding-bottom: 10px;
+      }
+      .descriptions{
+        padding-bottom: 131px;
+        font-size: 15px;
+      }
+      a{
+        width: 100px;
+        height: 30px;
+        font-size: 15px;
+      }
+    }
+  }
+  .footer{
+    max-width: 728px;
+    padding: 0 0 20px;
+  }
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+  .content{
+    padding: 20px;
+  }
+  h2{
+    font-size: 10px;
+  }
+  h1{
+    font-size: 24px;
+  }
+  h3{
+    font-size: 12px;
+  }
+  a{
+    font-size: 12px;
+  }
+  .btn_border_y{
+    width: 100px;
+    height: 30px;
+  }
+  .header{
+    max-width: 440px;
+    padding: 10px 0;
+    .header_logo{
+      .title{
+        font-size: 24px;
+      }
+      span{
+        font-size: 10px;
+      }
+    }
+    .search{
+      &:before{
+        top: 4px;
+        width: 15px;
+        height: 15px;
+        background-size: 100% 100%;
+      }
+      input{
+        font-size: 12px;
+        padding-right: 25px;
+        width: 50px;
+        &:focus{
+          width: 80px;
+        }
+      }
+    }
+  }
+  .section_1{
+    max-width: 440px;
+    h3{
+      padding: 10px 0 30px;
+    }
+  }
+  .section_2{
+    max-width: 440px;
+    display: flex;
+    flex-flow: column;
+    .block_left{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 0 20px;
+      .block_left_content{
+        span{
+          font-size: 12px;
+          padding-bottom: 75px;
+        }
+      }
+      .block_left_img{
+        height: 230px;
+        width: 193px;
+      }
+    }
+    .block_right{
+      box-sizing: border-box;
+      padding: 20px;
+      .title {
+        font-size: 24px;
+      }
+      .descriptions {
+        font-size: 13px;
+      }
+      .btn_w{
+        margin-bottom: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 12px;
+      }
+      .btn_blue{
+        margin-bottom: 15px;
+        height: 30px;
+        width: 100%;
+        font-size: 12px;
+      }
+      span{
+        padding: 0;
+        font-size: 11px;
+      }
+    }
+  }
+  .section_3{
+    max-width: 440px;
+    display: flex;
+    flex-flow: column;
+    .block_mob{
+      width: 100%;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .block_one{
+      width: 210px;
+      height: 341px;
+      .title{
+        font-size: 20px;
+      }
+      a{
+        width: 75px;
+        height: 30px;
+      }
+    }
+    .block_two{
+      margin: 0;
+      width: 210px;
+      height: 341px;
+      .title{
+        font-size: 20px;
+      }
+      a{
+        width: 75px;
+        height: 30px;
+      }
+    }
+    .block_three{
+      padding: 20px;
+      width: 100%;
+      box-sizing: border-box;
+      &:before{
+        background-size: 100% 100%;
+        height: 200px;
+        width: 276px;
+      }
+      h2{
+        padding-bottom: 10px;
+      }
+      h1{
+        font-size: 20px;
+        padding-bottom: 10px;
+      }
+      .descriptions{
+        font-size: 12px;
+      }
+      a{
+        font-size: 12px;
+      }
+    }
+  }
+  .footer{
+    max-width: 440px;
+    padding: 0 0 20px;
+  }
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .main{
+    margin: 0 10px;
+  }
+  .content{
+    padding: 10px;
+  }
+  h2{
+    font-size: 10px;
+  }
+  h1{
+    font-size: 24px;
+  }
+  h3{
+    font-size: 12px;
+  }
+  a{
+    font-size: 12px;
+  }
+  .btn_border_y{
+    width: 100px;
+    height: 30px;
+  }
+  .header{
+    max-width: 300px;
+    padding: 10px 0;
+    height: 50px;
+    .header_logo{
+      height: 50px;
+      width: 88px;
+      left: calc(50% - 44px);
+      top: calc(50% - 25px);
+      .title{
+        font-size: 20px;
+      }
+    }
+    .search{
+      &:before{
+        top: 5px;
+        width: 15px;
+        height: 15px;
+        background-size: 100% 100%;
+      }
+      input{
+        font-size: 10px;
+        padding-right: 18px;
+        width: 50px;
+        &:focus{
+          width: 50px;
+        }
+      }
+    }
+  }
+  .section_1{
+    max-width: 300px;
+    margin-bottom: 10px;
+    h3{
+      padding: 10px 0;
+    }
+  }
+  .section_2{
+    margin-bottom: 10px;
+    max-width: 300px;
+    display: flex;
+    flex-flow: column;
+    .block_left{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 0 10px;
+      .block_left_content{
+        padding: 10px;
+        span{
+          padding-bottom: 50px;
+        }
+      }
+      .block_left_img{
+        height: 195px;
+        width: 164px;
+      }
+    }
+    .block_right{
+      box-sizing: border-box;
+      padding: 10px;
+      .title {
+        font-size: 20px;
+      }
+      .descriptions {
+        font-size: 11px;
+        padding-bottom: 10px;
+      }
+      .btn_w{
+        margin-bottom: 10px;
+      }
+      .btn_blue{
+        margin-bottom: 10px;
+      }
+      span{
+        font-size: 10px;
+      }
+    }
+  }
+  .section_3{
+    max-width: 300px;
+    margin-bottom: 10px;
+    .block_mob{
+      margin-bottom: 10px;
+    }
+    .block_one{
+      padding: 10px 0;
+      width: 145px;
+      height: 236px;
+      margin-right: 10px;
+      .title{
+        font-size: 18px;
+      }
+      a{
+        width: 75px;
+        height: 30px;
+      }
+    }
+    .block_two{
+      padding: 10px 0;
+      margin: 0;
+      width: 145px;
+      height: 236px;
+      .title{
+        font-size: 18px;
+      }
+      a{
+        width: 75px;
+        height: 30px;
+      }
+    }
+    .block_three{
+      padding: 10px;
+      width: 100%;
+      box-sizing: border-box;
+      &:before{
+        background-size: 100% 100%;
+        height: 180px;
+        width: 225px;
+      }
+      a{
+        font-size: 12px;
+        width: 75px;
+      }
+    }
+  }
+  .footer{
+    max-width: 300px;
+    padding: 0 0 10px;
+    .info{
+      font-size: 11px;
+    }
+  }
+
+
+}
